@@ -2,6 +2,17 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.20.2"
-  }
+    "lerna": "^3.20.2",
+    "plop": "^2.6.0"
+  },
+  "version": "0.0.0",
+  "description": "ui component library for personal projects",
+  "main": "plopfile.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "plop "
+  },
+  "author": "Sergio Audel Ortiz Gtz <audel91@gmail.com>",
+  "license": "ISC"
 }

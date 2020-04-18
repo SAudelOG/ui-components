@@ -1,0 +1,19 @@
+{
+  "name": "input",
+  "version": "0.0.0",
+  "description": "simple input",
+  "author": "Sergio Ortiz <seortiz@expedia.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/input.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
