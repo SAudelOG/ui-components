@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-const input = require('input');
+import Input from "input"
 
 // TODO: DEMONSTRATE API
 ```
