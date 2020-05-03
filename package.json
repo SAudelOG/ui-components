@@ -20,7 +20,8 @@
   "dependencies": {},
   "scripts": {
     "test": "jest --coverage",
-    "generate": "plop "
+    "generate": "plop ",
+    "build": "lerna run build"
   },
   "author": "Sergio Audel Ortiz Gtz <audel91@gmail.com>",
   "license": "ISC"
