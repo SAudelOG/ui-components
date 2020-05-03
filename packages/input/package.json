@@ -16,7 +16,9 @@
   ],
   "scripts": {
     "test": "jest",
-    "build": "rollup -c"
+    "prebuild": "npm run clean",
+    "build": "rollup -c",
+    "clean": "rimraf dist node_modules"
   },
   "peerDependencies": {
     "react": "^16.13.1"
