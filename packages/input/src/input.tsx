@@ -1,9 +1,7 @@
 import * as React from 'react';
 
-interface inputProps {
+interface InputProps {
     name: string;
 }
 
-export const Input:React.FC<inputProps> = ({name}) => (
-    <input placeholder="type something" name={name} type="text" />
-)
+export const Input: React.FC<InputProps> = ({ name }) => <input placeholder="type something" name={name} type="text" />;
