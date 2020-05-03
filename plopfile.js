@@ -1,4 +1,4 @@
-// TODO: stablish a pattern to generate components
+// TODO: create CLI that allows the creation of a new component easily
 
 module.exports = function (plop) {
     // component generator

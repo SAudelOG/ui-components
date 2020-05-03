@@ -4,8 +4,8 @@ import { Input } from "../src"
 
 describe("<Input/>", () => {
     it("should render a component", () => {
-        const { getByPlaceholderText } = render(<Input name="age" />)
-
-        expect(getByPlaceholderText).
+        const { getByText, debug } = render(<Input name="inputName" />)
+        debug()
+        expect(1).toBe(2)
     })
 })
