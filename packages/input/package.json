@@ -5,7 +5,8 @@
   "author": "Sergio Ortiz <audel91@gmail.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "src/index.js",
+  "main": "dist/commonjs/index.js",
+  "module": "dist/esmodule/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -15,9 +16,14 @@
   ],
   "scripts": {
     "test": "jest",
-    "build": "todo:"
+    "prebuild": "npm run clean",
+    "build": "rollup -c",
+    "clean": "rimraf dist node_modules"
   },
   "peerDependencies": {
     "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "rollup": "^2.7.6"
   }
 }
