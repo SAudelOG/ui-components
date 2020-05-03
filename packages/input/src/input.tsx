@@ -5,5 +5,5 @@ interface inputProps {
 }
 
 export const Input:React.FC<inputProps> = ({name}) => (
-    <input placeholder="type something" name={name} type="text"/>
+    <input placeholder="type something" name={name} type="text" />
 )

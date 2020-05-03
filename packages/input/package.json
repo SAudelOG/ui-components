@@ -2,7 +2,7 @@
   "name": "input",
   "version": "0.0.0",
   "description": "simple input",
-  "author": "Sergio Ortiz <seortiz@expedia.com>",
+  "author": "Sergio Ortiz <audel91@gmail.com>",
   "homepage": "",
   "license": "ISC",
   "main": "src/index.js",

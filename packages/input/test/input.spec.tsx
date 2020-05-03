@@ -3,9 +3,9 @@ import { render } from "@testing-library/react";
 import { Input } from "../src"
 
 describe("<Input/>", () => {
-    it("should render a component", () => {
-        const { getByText, debug } = render(<Input name="inputName" />)
-        debug()
-        expect(1).toBe(2)
+    it("should render a basic component", () => {
+        const { getByPlaceholderText } = render(<Input name="inputName" />)
+
+        expect(getByPlaceholderText("type something")).toBeInTheDocument()
     })
 })
