@@ -11,6 +11,8 @@
     "plop": "^2.6.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "rollup": "^2.7.6",
+    "rollup-plugin-typescript2": "^0.27.0",
     "ts-jest": "^25.4.0",
     "typescript": "^3.8.3"
   },
@@ -20,7 +22,8 @@
   "dependencies": {},
   "scripts": {
     "test": "jest --coverage",
-    "generate": "plop "
+    "generate": "plop ",
+    "build": "lerna run build"
   },
   "author": "Sergio Audel Ortiz Gtz <audel91@gmail.com>",
   "license": "ISC"

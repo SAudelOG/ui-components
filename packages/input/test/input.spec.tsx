@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { render } from "@testing-library/react";
-import { Input } from "../src"
+import { Input } from "../src/index"
 
 describe("<Input/>", () => {
     it("should render a basic component", () => {
