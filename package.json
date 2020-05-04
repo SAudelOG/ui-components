@@ -30,7 +30,9 @@
   "version": "0.0.0",
   "description": "ui component library for personal projects",
   "main": "plopfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "docz": "^2.3.1"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
@@ -46,7 +48,9 @@
     "test": "jest --coverage",
     "generate": "plop ",
     "build": "lerna run build",
-    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
   },
   "author": "Sergio Audel Ortiz Gtz <audel91@gmail.com>",
   "license": "ISC"
