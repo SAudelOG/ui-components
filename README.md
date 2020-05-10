@@ -27,7 +27,7 @@ npm test
 ```
 
 ### Distribution
-The library is built with rollup, and it's configured via the rollup config factory [file](./rollup.config.factory.js), for the distribution it's support commonjs and ES6 modules
+The library it's built with rollup, and configured via the rollup config factory [file](./rollup.config.factory.js), for the distribution it supports commonjs and ES6 module
 
 ```
 npx lerna run build
