@@ -1,5 +1,5 @@
 {
-  "name": "@saudelog/input",
+  "name": "@seortiz/input",
   "version": "0.0.7-alpha.0",
   "description": "simple input",
   "author": "Sergio Ortiz <audel91@gmail.com>",
@@ -18,5 +18,5 @@
   "devDependencies": {
     "rollup": "^2.7.6"
   },
-  "gitHead": "f70b3a9966f4cff18a8311a7609704ca2795a65f"
+  "gitHead": "9eb9f0276e078963d1009ecf231c5f675000fbd8"
 }
