@@ -7,7 +7,7 @@
   "main": "dist/commonjs/index.js",
   "module": "dist/esmodule/index.js",
   "scripts": {
-    "build": "rollup -c",
+    "build": "npx rollup -c",
     "clean": "npx rimraf dist node_modules",
     "prebuild": "npm run clean",
     "test": "echo \"Error: no test specified\" && exit 1"
