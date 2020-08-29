@@ -17,5 +17,6 @@
   },
   "devDependencies": {
     "rollup": "^2.7.6"
-  }
+  },
+  "gitHead": "55eb190e74bf5042b99420596e7365fb03745110"
 }
