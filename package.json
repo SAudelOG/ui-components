@@ -51,7 +51,8 @@
     "build": "lerna run build",
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
     "docz:dev": "docz dev",
-    "docz:build": "docz build"
+    "docz:build": "docz build",    
+    "prepublish": "npx lerna run build"
   },
   "author": "Sergio Audel Ortiz Gtz <audel91@gmail.com>",
   "license": "ISC"
