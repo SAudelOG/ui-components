@@ -1,0 +1,18 @@
+{
+    "listeners": {
+         "*:8000": {
+             "pass": "routes"
+         }
+    },
+
+    "routes": [
+        {
+            "action" : {
+                "share": "/www/",
+                "fallback": {
+                    "share": "/www/404/"
+                }
+            }
+        }
+    ]
+}
